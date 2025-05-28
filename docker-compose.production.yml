@@ -25,7 +25,6 @@ services:
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static_volume:/frontend_static/
-      - media:/app/media/
     depends_on:
       - db
   gateway:
