@@ -168,4 +168,4 @@ jobs:
           Деплой успешно выполнен!
           Запушил: ${{ github.actor }}
           Комментарий коммита: ${{ (github.event.commits[0].message) }}
-          Ссылка на коммита: ${{ https://github.com/${{ github.repository }}/commit/${{github.sha}} }}
+          Ссылка на коммит: https://github.com/${{ github.repository }}/commit/${{github.sha}}
